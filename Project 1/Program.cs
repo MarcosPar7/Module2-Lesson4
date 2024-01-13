@@ -22,7 +22,6 @@ string gender = "Male";
 string PESEL = "98040499900";
 string number = "77";
 
-
 Console.WriteLine(name);
 Console.WriteLine(surname);
 Console.WriteLine(age);
@@ -38,7 +37,6 @@ string c = "C";
 
 Console.WriteLine($"{c} {b} {a}");
 
-
 //3. Napisz program, który na podstawie podanej szerokości i długości prostokąta wyliczy długość przekątnej. (Aby, obliczyć kwadrat liczby użyj metody Math.Pow())
 
 Console.WriteLine("Podaj dlugosc boku A: ");
@@ -48,7 +46,6 @@ double rectangleHigh = double.Parse(Console.ReadLine());
 
 double diagonal = Math.Sqrt(Math.Pow(rectangleLenght, 2) + Math.Pow(rectangleHigh, 2));
 Console.WriteLine($"Dlugosc przekatnej wynosi: {diagonal}");
-
 
 //4.Napisz program w którym stworzysz 2 zmienne liczbowe, oraz jedną tekstową, a następnie przypiszesz im następujące wartości:
 //a. 10
@@ -67,7 +64,6 @@ Console.WriteLine(h);
 Console.WriteLine(i);
 
 //5. Napisz program w którym poprosisz użytkownika o jego dane personalne tj. Imię, nazwisko, numer telefonu, adres email, wzrost, waga (np. 85, 7), itp (postaraj się wymyślić jak najwięcej) i spróbuj przekonwertować odpowiedź do odpowiedniego typu danych używając metody: typDanych.Parse(odpowiedźOdUżytkownika).
-
 
 Console.WriteLine("Prosze podac Twoje dane personalne"); 
 Console.WriteLine("Imie: ");
