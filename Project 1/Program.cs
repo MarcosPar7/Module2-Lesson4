@@ -57,7 +57,7 @@ int g = 10;
 
 string h = "Szkoła Dotneta";
 
-string i = "12,5";
+double i = 12.5;
 
 Console.WriteLine(g);
 Console.WriteLine(h);
